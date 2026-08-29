@@ -33,3 +33,6 @@ public sealed class EvidenceDbContext(DbContextOptions<EvidenceDbContext> option
         b.Entity<EvidenceFile>().HasOne(x => x.EvidenceItem).WithMany().HasForeignKey(x => x.EvidenceItemId).OnDelete(DeleteBehavior.Cascade);
     }
 }
+
+
+// Before connecting of EFC 8
