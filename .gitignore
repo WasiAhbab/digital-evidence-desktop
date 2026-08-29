@@ -1,19 +1,19 @@
-# Visual Studio
+# Visual Studio final
 .vs/
 *.user
 *.suo
 
-# Build output
+# Build output final
 bin/
 obj/
 
-# Rider / ReSharper
+# Rider / ReSharper final
 .idea/
 _ReSharper*/
 
-# Test results
+# Test final results
 TestResults/
 
-# OS files
+# OS  final files
 .DS_Store
 Thumbs.db
