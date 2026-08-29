@@ -3,4 +3,4 @@ TraceLock .NET 8 Windows Forms project
 Target framework: net8.0-windows
 Application type: WinExe
 UI framework: Windows Forms
-Database: SQLite (local)
+Database: Microsoft SQL Server
