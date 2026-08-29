@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>TraceLock.Desktop</RootNamespace>
+    <AssemblyName>TraceLock</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="8.0.8" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="App_Data\EvidenceStorage\**\*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
